@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact 📞</title>
+  </head>
+  <body>
+    <a href="practice.html">◀</a>
+    <h1>My Contact Details</h1>
+    <table cellspacing="10">
+      <tr>
+        <td><strong>Email</strong></td>
+        <td>Omairfic922@gmail.com</td>
+      </tr>
+      <tr>
+        <td><strong>Contact</strong></td>
+        <td>03166801820</td>
+      </tr>
+      <tr>
+        <td><strong>Address</strong></td>
+        <td><address>125th street luisberg</address></td>
+      </tr>
+    </table>
+    <hr />
+    <form
+      action="mailto:omairfic922@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name">Your Name: </label><br />
+      <input
+        type="text"
+        id="name"
+        autocomplete="additional-name"
+        name="Name"
+      /><br /><br />
+
+      <label for="email">Your Email: </label><br />
+      <input
+        type="email"
+        id="email"
+        name="Email"
+        autocomplete="additional-name"
+      /><br /><br />
+
+      <label for="date">Select Date: </label><br />
+      <input type="week" name="Date" id="date" /><br /><br />
+
+      <label for="cv">Upload your CV: </label><br />
+      <input type="file" name="CV" id="cv" /><br /><br />
+
+      <label for="message">Your Message: </label><br />
+      <textarea name="Message" id="" cols="30" rows="5"></textarea><br /><br />
+
+      <input type="submit" id="" />
+    </form>
+  </body>
+</html>
